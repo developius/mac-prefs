@@ -18,3 +18,8 @@ brew install wget
 brew install node
 
 npm install -g nodemon mongo
+
+cd /usr/local/bin
+wget -O speedtest-cli https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py
+chmod +x speedtest-cli
+cd
